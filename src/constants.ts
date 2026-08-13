@@ -17,8 +17,7 @@ export const WHO_WE_SUPPORT_URL = '/about/who-we-support';
 export const HOW_WE_SUPPORT_URL = '/about/how-we-support';
 export const SIDEBAR_ABOUT_LINKS: SidebarLink[] = [
   { text: 'Overview', href: `${ABOUT_URL}/#overview` },
-  { text: 'Grant Management', href: `${ABOUT_URL}/#grant-management` },
-  { text: 'Funding Coordination', href: `${ABOUT_URL}/#funding-coordination` }
+  { text: 'Grant Management', href: `${ABOUT_URL}/#grant-management` }
 ];
 
 // applicants
@@ -122,10 +121,6 @@ export const ESP_EMAIL_ADDRESS = 'esp@ethereum.org';
 export const ACADEMIC_GRANTS_EMAIL_ADDRESS = 'academic-grants@ethereum.org';
 export const GRANTS_EMAIL_ADDRESS = 'grant-rounds@ethereum.org';
 export const FOUNDER_SUCCESS_URL = 'https://ethereum.org/founders/';
-export const ENTERPRISE_ACCELERATION_URL = 'https://institutions.ethereum.org/';
-export const ETHEREUM_EVERYWHERE_URL =
-  'https://docs.google.com/forms/d/e/1FAIpQLSeA-W8iy2PJxrY3TD4lMYXyky_wLd4QB_7NRwqSxCd0e19MUg/viewform';
-export const FUNDING_COORDINATION_EMAIL = 'vinay.vasanji@ethereum.org';
 export const ARGOT_COLLECTIVE_URL = 'https://www.argot.org/';
 export const REMIX_LABS_URL = 'https://remix-project.org/';
 export const POWDR_LABS_URL = 'https://www.powdr.org/';

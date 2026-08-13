@@ -13,8 +13,6 @@ import {
   ProcessStep,
 } from '../../components/UI';
 
-import SupportTeamCards from '../../components/UI/common/SupportTeamCards';
-
 import {
   ESP_TWITTER_URL,
   ESP_FARCASTER_URL,
@@ -165,8 +163,6 @@ const Applicants: NextPage = () => {
                   </FAQItem>
                 </Accordion>
               </section>
-
-              <SupportTeamCards />
             </Stack>
           </Box>
         </Flex>
