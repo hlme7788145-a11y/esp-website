@@ -36,13 +36,8 @@ const About = () => {
                   <PageText>
                     ESP is an ecosystem development cluster within the EF focused on strengthening
                     Ethereum&apos;s foundations, supporting teams across the ecosystem, and enabling
-                    future builders.
-                  </PageText>
-                  <PageText>
-                    We focus on strengthening Ethereum&apos;s foundations, supporting teams across the
-                    ecosystem, and enabling future builders. The work we support is free,
-                    open-source, non-commercial, and designed to create positive sum outcomes for
-                    the community.
+                    future builders. The work we support is free, open-source, non-commercial, and
+                    designed to create positive sum outcomes for the community.
                   </PageText>
                   <PageText>Learn more about our work below!</PageText>
                 </Stack>

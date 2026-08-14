@@ -3,9 +3,7 @@ import {
   Flex,
   Grid,
   GridItem,
-  ListItem,
-  Stack,
-  UnorderedList
+  Stack
 } from '@chakra-ui/react';
 import type { NextPage } from 'next';
 import Image from 'next/image';
@@ -230,16 +228,10 @@ const Home: NextPage = () => {
             >
               <PageText mb={6}>
                 ESP provides financial and non-financial support to projects that strengthen
-                Ethereum&apos;s foundations and enable future builders:
+                Ethereum&apos;s foundations and enable future builders through Grant Management:
+                supporting the strategic allocation of resources to projects that are most
+                critical to Ethereum&apos;s resilience and usability.
               </PageText>
-              <UnorderedList>
-                <ListItem mb={2}>
-                  <PageText>
-                    Grant Management: Supporting the strategic allocation of resources to projects
-                    that are most critical to Ethereum&apos;s resilience and usability
-                  </PageText>
-                </ListItem>
-              </UnorderedList>
             </HomeAboutCard>
           </section>
 

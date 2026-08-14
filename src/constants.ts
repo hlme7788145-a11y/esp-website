@@ -104,7 +104,6 @@ export const ETHEREUM_JOBS_URL = 'https://ethereum.org/en/community/get-involved
 export const ETHEREUM_COMMUNITY_URL = 'https://ethereum.org/en/community/';
 export const ETHEREUM_BROAD_ECOSYSTEM_URL =
   'https://ethereum.org/en/community/grants/#broad-ethereum-ecosystem';
-export const ETHEREUM_GRANTS_URL = 'https://ethereum.org/en/community/grants/';
 export const ETHEREUM_WALLETS_URL = 'https://ethereum.org/en/wallets/';
 
 // EF
