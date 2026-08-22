@@ -1,36 +1,36 @@
 {
-  "name": "dependency",
-  "version": "0.0.1",
-  "description": "Resolve and List node module dependencies for given files.",
+  "name": "interfaces",
+  "version": "0.0.3",
+  "description": "displays network interface info including hardware mac addresses for versions of node < 0.12",
   "keywords": [
-    "dependency",
-    "module"
+    "ifconfig",
+    "ipconfig",
+    "mac address",
+    "mac",
+    "network interface"
   ],
-  "bugs": {
-    "url": "https://github.com/tomoio/dependency/issues"
-  },
-  "main": "./lib/dependency",
-  "directories": {
-    "lib": "./lib",
-    "doc": "./docs"
-  },
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomoio/dependency"
-  },
-  "dependencies": {
-    "coffee-script": "",
-    "js2coffee": "",
-    "underscore": "",
-    "async": ""
-  },
-  "devDependencies": {
-    "mocha": "",
-    "chai": ""
+    "url": "https://github.com/clarkda/interfaces.git"
   },
   "author": {
-    "name": "Tomo I/O",
-    "email": "711@tomo.io",
-    "url": "http://tomo.io/"
+    "name": "Dustin Clark",
+    "email": "dusty@clarkda.com",
+    "url": "https://github.com/clarkda"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clarkda/interfaces/issues"
+  },
+  "dependencies": {
+    "underscore": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "mockery": "*"
+  },
+  "scripts": {
+    "test": "mocha test/test*"
   }
 }
