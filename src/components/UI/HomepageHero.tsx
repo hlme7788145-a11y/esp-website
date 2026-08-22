@@ -39,11 +39,6 @@ export const HomepageHero: FC = () => {
           flexWrap={{ base: 'wrap', md: 'nowrap' }}
         >
           <ButtonLink label='Grant support' link={APPLICANTS_URL} width='201px' />
-          <ButtonLink
-            label='Ecosystem support'
-            link='#other-support'
-            width='247px'
-          />
         </Flex>
       </Stack>
       <Box>

@@ -3,15 +3,12 @@ import {
   Flex,
   Grid,
   GridItem,
-  ListItem,
-  Stack,
-  UnorderedList
+  Stack
 } from '@chakra-ui/react';
 import type { NextPage } from 'next';
 import Image from 'next/image';
 
 import { HomeAboutCard, PageMetadata, PageSection, PageText } from '../components/UI';
-import SupportTeamCards from '../components/UI/common/SupportTeamCards';
 
 import applicantsHero from '../../public/images/applicants-hero.png';
 import smallSucculentSVG from '../../public/images/small-succulent.svg';
@@ -38,7 +35,8 @@ const Home: NextPage = () => {
                 <PageSection mb={6}>Our Mission</PageSection>
 
                 <PageText fontSize='stats' fontWeight={100} lineHeight='32px'>
-                The Ecosystem Support Program is an ecosystem development cluster within the Ethereum Foundation comprising two teams: Grant Management and Funding Coordination. Together, we focus on strengthening Ethereum&apos;s foundations, supporting teams across the ecosystem, and enabling future builders.
+                  The Ecosystem Support Program focuses on strengthening Ethereum&apos;s
+                  foundations, supporting teams across the ecosystem, and enabling future builders.
                 </PageText>
               </section>
             </Stack>
@@ -229,16 +227,11 @@ const Home: NextPage = () => {
               link={ABOUT_URL}
             >
               <PageText mb={6}>
-              ESP comprises two teams:
+                ESP provides financial and non-financial support to projects that strengthen
+                Ethereum&apos;s foundations and enable future builders through Grant Management:
+                supporting the strategic allocation of resources to projects that are most
+                critical to Ethereum&apos;s resilience and usability.
               </PageText>
-              <UnorderedList>
-                <ListItem mb={2}>
-                  <PageText>Grant Management: Supporting the strategic allocation of resources to projects that are most critical to Ethereum’s resilience and usability</PageText>
-                </ListItem>
-                <ListItem mb={2}>
-                  <PageText>Funding Coordination: Streamlining access to funding and resources across multiple channels to support impactful projects</PageText>
-                </ListItem>
-              </UnorderedList>
             </HomeAboutCard>
           </section>
 
@@ -279,10 +272,6 @@ const Home: NextPage = () => {
                 Financial support is offered through our Wishlist and RFPs, which highlight funding opportunities curated by EF teams. Non-financial support is available through Office Hours, where builders can receive project feedback, guidance on navigating the ecosystem, or advice on aligning their project with a Wishlist or RFP item.
               </PageText>
             </HomeAboutCard>
-          </section>
-
-          <section id='other-support'>
-            <SupportTeamCards />
           </section>
         </Stack>
       </Box>
