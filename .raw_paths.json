@@ -1,0 +1,23 @@
+{
+  "@openzeppelin/contracts@5.6.1/token/ERC20/IERC20.sol": ".deps/npm/@openzeppelin/contracts@5.6.1/token/ERC20/IERC20.sol",
+  "@openzeppelin/contracts@5.6.1/utils/Context.sol": ".deps/npm/@openzeppelin/contracts@5.6.1/utils/Context.sol",
+  "@openzeppelin/contracts@5.6.1/access/Ownable.sol": ".deps/npm/@openzeppelin/contracts@5.6.1/access/Ownable.sol",
+  "@openzeppelin/contracts@5.6.1/token/ERC20/utils/SafeERC20.sol": ".deps/npm/@openzeppelin/contracts@5.6.1/token/ERC20/utils/SafeERC20.sol",
+  "@openzeppelin/contracts@5.6.1/interfaces/IERC1363.sol": ".deps/npm/@openzeppelin/contracts@5.6.1/interfaces/IERC1363.sol",
+  "@openzeppelin/contracts@5.6.1/interfaces/IERC20.sol": ".deps/npm/@openzeppelin/contracts@5.6.1/interfaces/IERC20.sol",
+  "@openzeppelin/contracts@5.6.1/interfaces/IERC165.sol": ".deps/npm/@openzeppelin/contracts@5.6.1/interfaces/IERC165.sol",
+  "@openzeppelin/contracts@5.6.1/token/ERC20/extensions/draft-IERC20Permit.sol": ".deps/npm/@openzeppelin/contracts@5.6.1/token/ERC20/extensions/draft-IERC20Permit.sol",
+  "@openzeppelin/contracts@5.6.1/utils/introspection/IERC165.sol": ".deps/npm/@openzeppelin/contracts@5.6.1/utils/introspection/IERC165.sol",
+  "@openzeppelin/contracts@5.6.1/token/ERC20/IERC20Permit.sol": ".deps/npm/@openzeppelin/contracts@5.6.1/token/ERC20/IERC20Permit.sol",
+  "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/main/contracts/token/IERC20Permit.sol": ".deps/github/OpenZeppelin/openzeppelin-contracts@main/contracts/token/IERC20Permit.sol",
+  "dependency@0.0.1/Permitable.sol": ".deps/npm/dependency@0.0.1/Permitable.sol",
+  "dependency@0.0.1/OpenZeppelin-v4.9.3/contracts/token/ERC20/extensions/Permitable.sol": ".deps/npm/dependency@0.0.1/OpenZeppelin-v4.9.3/contracts/token/ERC20/extensions/Permitable.sol",
+  "dependency@0.0.1/OpenZeppelin-v4.9.3/contracts/utils/Counters.sol": ".deps/npm/dependency@0.0.1/OpenZeppelin-v4.9.3/contracts/utils/Counters.sol",
+  "interfaces@0.0.3/IERC20Permit.sol": ".deps/npm/interfaces@0.0.3/IERC20Permit.sol",
+  "artifacts@0.0.1/build-info/@openzeppelin/contracts@5.6.1/token/ERC20/IERC20.sol": ".deps/npm/artifacts@0.0.1/build-info/@openzeppelin/contracts@5.6.1/token/ERC20/IERC20.sol",
+  "artifacts@0.0.1/build-info/@openzeppelin/contracts@5.6.1/token/ERC20/utils/SafeERC20.sol": ".deps/npm/artifacts@0.0.1/build-info/@openzeppelin/contracts@5.6.1/token/ERC20/utils/SafeERC20.sol",
+  "artifacts@0.0.1/build-info/@openzeppelin/contracts@5.6.1/interfaces/IERC20.sol": ".deps/npm/artifacts@0.0.1/build-info/@openzeppelin/contracts@5.6.1/interfaces/IERC20.sol",
+  "artifacts@0.0.1/build-info/@openzeppelin/contracts@5.6.1/interfaces/IERC165.sol": ".deps/npm/artifacts@0.0.1/build-info/@openzeppelin/contracts@5.6.1/interfaces/IERC165.sol",
+  "artifacts@0.0.1/build-info/@openzeppelin/contracts@5.6.1/interfaces/IERC1363.sol": ".deps/npm/artifacts@0.0.1/build-info/@openzeppelin/contracts@5.6.1/interfaces/IERC1363.sol",
+  "artifacts@0.0.1/build-info/@openzeppelin/contracts@5.6.1/access/Ownable.sol": ".deps/npm/artifacts@0.0.1/build-info/@openzeppelin/contracts@5.6.1/access/Ownable.sol"
+}
