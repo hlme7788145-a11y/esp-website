@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.35+commit.47b9dedd"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/libraries/RevertReasonParser.sol": "RevertReasonParser"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/libraries/RevertReasonParser.sol": {
+			"keccak256": "0xab18cceae09936360c762f6980f7533e1542e69bb5e2e4fc51724488a5570b80",
+			"license": "GPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://2186ce36ec45c689dd976b49b07772e96fdb48cd1ab205bb480b0d515d1a6734",
+				"dweb:/ipfs/QmbfhTh3gs4qqypaLfEAjBvDop2KX2UHzcBADs6aqEDuyw"
+			]
+		}
+	},
+	"version": 1
+}

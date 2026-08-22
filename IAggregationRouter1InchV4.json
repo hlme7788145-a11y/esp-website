@@ -1,0 +1,121 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"sepolia:11155111": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"gasEstimates": null,
+		"methodIdentifiers": {
+			"swap(address,(address,address,address,address,uint256,uint256,uint256,bytes),bytes)": "7c025200"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "contract IAggregationExecutor1Inch",
+					"name": "caller",
+					"type": "address"
+				},
+				{
+					"components": [
+						{
+							"internalType": "contract IERC20",
+							"name": "srcToken",
+							"type": "address"
+						},
+						{
+							"internalType": "contract IERC20",
+							"name": "dstToken",
+							"type": "address"
+						},
+						{
+							"internalType": "address payable",
+							"name": "srcReceiver",
+							"type": "address"
+						},
+						{
+							"internalType": "address payable",
+							"name": "dstReceiver",
+							"type": "address"
+						},
+						{
+							"internalType": "uint256",
+							"name": "amount",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "minReturnAmount",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "flags",
+							"type": "uint256"
+						},
+						{
+							"internalType": "bytes",
+							"name": "permit",
+							"type": "bytes"
+						}
+					],
+					"internalType": "struct SwapDescription1Inch",
+					"name": "desc",
+					"type": "tuple"
+				},
+				{
+					"internalType": "bytes",
+					"name": "data",
+					"type": "bytes"
+				}
+			],
+			"name": "swap",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "returnAmount",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "gasLeft",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "payable",
+			"type": "function"
+		}
+	]
+}
