@@ -1,0 +1,138 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract IAggregationExecutor1Inch",
+						"name": "caller",
+						"type": "address"
+					},
+					{
+						"components": [
+							{
+								"internalType": "contract IERC20",
+								"name": "srcToken",
+								"type": "address"
+							},
+							{
+								"internalType": "contract IERC20",
+								"name": "dstToken",
+								"type": "address"
+							},
+							{
+								"internalType": "address payable",
+								"name": "srcReceiver",
+								"type": "address"
+							},
+							{
+								"internalType": "address payable",
+								"name": "dstReceiver",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "amount",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "minReturnAmount",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "flags",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bytes",
+								"name": "permit",
+								"type": "bytes"
+							}
+						],
+						"internalType": "struct SwapDescription1Inch",
+						"name": "desc",
+						"type": "tuple"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "swap",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "returnAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "gasLeft",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/interfaces/IAggregationExecutor1Inch.sol": "IAggregationRouter1InchV4"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/interfaces/IERC20.sol": {
+			"keccak256": "0x1a6221315ce0307746c2c4827c125d821ee796c74a676787762f4778671d4f44",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1bb2332a7ee26dd0b0de9b7fe266749f54820c99ab6a3bcb6f7e6b751d47ee2d",
+				"dweb:/ipfs/QmcRWpaBeCYkhy68PR3B4AgD7asuQk7PwkWxrvJbZcikLF"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x74ed01eb66b923d0d0cfe3be84604ac04b76482a55f9dd655e1ef4d367f95bc2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5282825a626cfe924e504274b864a652b0023591fa66f06a067b25b51ba9b303",
+				"dweb:/ipfs/QmeCfPykghhMc81VJTrHTC7sF6CRvaA1FXVq2pJhwYp1dV"
+			]
+		},
+		"contracts/interfaces/IAggregationExecutor1Inch.sol": {
+			"keccak256": "0xbbc326ae4ac5eaeedccce5159bdf79a5e2a71b8925709d3ec176b7cedac50e79",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://856c4a3546fdd2b2480111852159edf25dbc75399cebb94fb15e9bafb78a0498",
+				"dweb:/ipfs/QmaC5gXJEBSRcVJFxWdEciJAqjPBwiko53fQTd2ovGaLYk"
+			]
+		}
+	},
+	"version": 1
+}
