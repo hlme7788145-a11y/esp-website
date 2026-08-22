@@ -1,6 +1,9 @@
-.next
-node_modules
-package-lock.json
-pnpm-lock.yaml
-public
-build
+build/
+dist/
+*.css
+*.html
+*.xml
+*.tmLanguage.json
+*.solidity.json
+*.abi.json
+

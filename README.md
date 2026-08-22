@@ -1,145 +1,84 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/dc4a526c-394c-4001-8452-b63ce3c1c77b/deploy-status)](https://app.netlify.com/sites/ecosystem-support/deploys)
-
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/8097623/69177629-c137a400-0abc-11ea-9bcd-da3ba03d2688.png" width="60%" alt="Ethereum Ecosystem Support Program">
-</p>
+<img src='assets/icon.png' width=64>
+	<h1 align="center">solidity-lang</h1>
+ <h3 align="center"> VSCode Solidity & Yul Semantic Syntax Highlighting and Language Support</h3>
+ <p align="center">
+<align="center">
 
-<h1 align="center">
-  Ethereum Ecosystem Support Program
-</h1>
+---
 
-The Ethereum Ecosystem Support Program exists to provide both financial and non-financial support to projects and entities within the greater Ethereum community, in order to accelerate the growth of the ecosystem. The Ecosystem Support Program is an expansion of the original Ethereum Grants Program which mainly focused on financial support. Our focus is on deploying our resources where they will have the biggest impact.
+<br>
 
-This repository holds the codebase to our website, [esp.ethereum.foundation](https://esp.ethereum.foundation)
+<span align="center">
 
-## Stack
+[![vscode marketplace](https://badgen.net/vs-marketplace/v/contractshark.solidity-lang)](https://marketplace.visualstudio.com/items?itemName=ContractShark.solidity-lang)
+![Open VSX Version](https://img.shields.io/open-vsx/v/contractshark/solidity-lang?logo=eclipse)
+[![solidity - <0.9.0](https://img.shields.io/badge/solidity-v0.9.0-2ea44f?logo=solidity)](https://github.com/manifoldfinance)
 
-The main stack used in the project includes:
+</span>
 
-- [Next.js](https://nextjs.org/).
-- [TypeScript](https://www.typescriptlang.org/).
-- [ChakraUI](https://chakra-ui.com/) as component library.
-- [react-hook-form](https://react-hook-form.com/) to validate forms.
-- [Framer Motion](https://www.framer.com/motion/) to animate buttons.
-- [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) for linting and code formatting.
+## Motivation
 
-## Local development
+Every Solidity extension on Visual Studio Code's Marketplace contain multiple plugins. This can lead
+to an inconsistent developer environment, or worse create conflicting configurations that, under the
+pretense of `helping` you, do things in the background to your files without your explicit
+knowledge.
 
-The project is bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), with a custom scaffolding.
+Hence why this extension exists: only to provide syntax highlighting so that you can decided what to
+add without having to give up basic functionality.
 
-### Getting Started
+## v2.0.0 Planned Features
 
-First, run the development server:
+- Semantic Token support for Foundry/Dapptools 'Cheat codes'
 
-```bash
-npm run dev
-# or
-pnpm dev
-```
+- Custom NatSpec support
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Solhint/Slither comment directive support
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- Theme Coloring support
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Features
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Solidity Syntax Highlighting
 
-### testing w/hCaptcha locally
+- Yul/Yulp Syntax Highlighting
 
-We can use [hCaptcha testing keys](https://docs.hcaptcha.com/#test-key-set-publisher-account) (already defined on `.env.local.example`) to be able to test forms locally.
+- Maintained and Tested
 
-## Project Structure
+- Semantic Syntax Support (Custom Tokens coming in v2.0.0)
 
-The following list describes the main elements of the project structure:
+- Remote Container / Container support
 
-- `public`: contains static assets like fonts and images.
-- `src`: contains the source code.
-  - `components`: React components.
-    - components with state are directly located inside `/components`.
-    - `forms`: components used in forms.
-      - `api.ts`: this file contains the api fetching logic details used when submitting the forms data.
-    - `layout`: components used to contain and apply different layouts to different pages.
-    - `UI`: stateless (functional) components.
-  - `hooks`: custom hooks.
-  - `middlewares`: custom middlewares (required for captcha input validation).
-  - `pages`: includes components that renders to pages and [NextJS API Routes](https://nextjs.org/docs/api-routes/introduction).
-  - `theme`: contains the [Chakra UI custom theme](https://v2.chakra-ui.com/docs/styled-system/customize-theme), organized in `foundations` and `components` for better scaling.
-  - `utils`
-  - `constants.ts`: this is the _global_ constants file (we have another one for specific _form constants_), containing URLs and lists of elements we use across the site.
-  - `global.css`: global stylesheet.
-  - `types.ts`: contains the custom defined TypeScript types and interfaces.
+- NatSpec Supported Highlighting
 
-## Salesforce Integration
+- Custom NatSpec Support coming in v2.0.0
 
-For the custom integration with the Salesforce API, we rely on the [JSforce](https://jsforce.github.io/) library. Some operations are not documented and were the result of lots of googling, SO and [Github issues scanning](https://github.com/jsforce/jsforce/issues).
+- Support ^0.5.0 to <0.9.0
 
-The Salesforce API field names (listed on `types.ts`) are defined in Salesforce for each corresponding object (Lead, Contract, etc).
+- No other plugins, configurations, etc: just syntax highlighting
 
-### Connected App (OAuth 2.0 Client Credentials flow)
+- see the additional `.vscode/settings` for better git workspace environment
 
-Auth uses the [OAuth 2.0 Client Credentials flow](https://help.salesforce.com/s/articleView?id=sf.remoteaccess_oauth_client_credentials_flow.htm&type=5) — server-to-server with a client ID and secret, no user interaction.
+- [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ContractShark.solidity-lang)
 
-#### One-time setup (Salesforce admin)
+- [Eclipse Open VSX Registry Marketplace](https://open-vsx.org/extension/contractshark/solidity-lang)
 
-In Salesforce, go to `Setup > App Manager > New Connected App` (or edit the existing one):
+## Extension Settings
 
-- **OAuth Settings:** Enabled
-- **Enable Client Credentials Flow:** Enabled
-- **Selected OAuth Scopes:** Manage user data via APIs (`api`)
-- **Callback URL:** any placeholder (unused by Client Credentials)
+This extension contributes the following settings:
 
-Then under `Manage > Edit Policies`:
+- `solidity-lang.enable`: enable/disable this extension
 
-- **Run As:** select the integration user that the connected app will act as
+## Contributing
 
-Finally, capture the **Consumer Key** and **Consumer Secret** from the app's manage page.
+Checkout VSCode Extenstion recommendations for helpful utilities when working on the tmLanguage syntax files.
 
-#### Local / deployment env vars
+## Issues / Support
 
-| Variable | Description |
-| --- | --- |
-| `SF_PROD_LOGIN_URL` | Org's My Domain URL (e.g. `https://ef-esp.my.salesforce.com`) — Client Credentials must hit My Domain, not `login.salesforce.com`. Use the sandbox My Domain when testing against a sandbox. |
-| `SF_PROD_CONSUMER_KEY` | Connected App Consumer Key (`client_id`) |
-| `SF_PROD_CONSUMER_SECRET` | Connected App Consumer Secret (`client_secret`) |
+[github.com/contractshark](https://github.com/contractshark)
 
-### Common issues
+## License
 
-Some common issues regarding Salesforce data types
+SPDX-License-Identifier: MIT
 
-- `Picklist`: if you get the error
-
-```
-Error 'bad value for restricted picklist field' appears when a record is created
-```
-
-when creating a new record, try disabling the _'Restrict picklist to the values defined in the value set'_ option for the corresponding field.
-
-- `Checkbox`: besides how you're handling this input on the UI (e.g.: a radio button), Salesforce expects the value to be a boolean (`true`, `false`), so remember to convert the string before submitting the data.
-
-#### When adding new Grants
-
-Check that the hardwired string value of `Proactive_Community_Grants_Round__c` is defined on Salesforce, otherwise submission will fail.
-
-## Grantees List data source
-
-The data published in the [Latest Grantees](https://esp.ethereum.foundation/about/who-we-support#latest-grantees) list is being pulled from a Google Spreadsheet maintained by the ESP Team. This document uses Markdown syntax as it's also being used as source for other pages.
-
-To accomplish that, we [publish the content of the document as CSV](https://support.google.com/a/users/answer/9308870?hl=en) and then render it in the `LatestGranteesList` component. This includes some parsing work, from CSV to JSON and then rendering the Markdown. This process happens server-side only, [on build time](https://nextjs.org/docs/basic-features/data-fetching/get-static-props), so the [resulting page](https://esp.ethereum.foundation/about/who-we-support) is completely static.
-
-## Tutorials
-
-### Learning NextJS
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-### Adding ChakraUI to a NextJS project
-
-[This](https://v2.chakra-ui.com/getting-started/nextjs-app-guide) is a very clear and step-by-step guide on it.
-
-### Learning ChakraUI
-
-We recommend checking the [official docs](https://v2.chakra-ui.com/getting-started).
+See `CopyrightNotice.txt` for Additional Licenses and Copyrights
