@@ -1,0 +1,73 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://6a85e78282ba905f117a22b3--stellular-cascaron-3d4836.netlify.app/
+Subject: =?utf-8?Q?=D8=A7=D9=84=D9=85=D9=88=D9=82=D8=B9=20=D9=85=D8=AA=D8=B5=D9=84?=
+Date: Tue, 8 Sep 2026 01:57:07 +0300
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Op9KiIkvsLwGX6w2V4InCaS9xax61JRnJBPnti4H4X----"
+
+
+------MultipartBoundary--Op9KiIkvsLwGX6w2V4InCaS9xax61JRnJBPnti4H4X----
+Content-Type: text/html
+Content-ID: <frame-EAA8CD54B8A0ADB67BBBDAA5525E8599@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://6a85e78282ba905f117a22b3--stellular-cascaron-3d4836.netlify.app/
+
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-15ad0b06-89ac-40c3-8aa2-64ee281e01cc@mhtml.blink" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#12211d">
+    <meta name="description" content="تمت استعادة نشر الموقع وأصبح متاحًا عبر Netlify.">
+    <title>الموقع متصل</title>
+    
+  </head>
+  <body>
+    <main>
+      <div class="status">NETLIFY · ONLINE</div>
+      <h1>تمت استعادة الموقع</h1>
+      <p>
+        أصبح النشر متاحًا من جديد. تم إصلاح مجلد النشر وضبط الصفحة الرئيسية لمنع ظهور خطأ
+        الصفحة غير الموجودة.
+      </p>
+      <time datetime="2026-08-19">DEPLOYMENT RESTORED · 2026-08-19</time>
+    </main>
+  
+
+</body></html>
+------MultipartBoundary--Op9KiIkvsLwGX6w2V4InCaS9xax61JRnJBPnti4H4X----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-15ad0b06-89ac-40c3-8aa2-64ee281e01cc@mhtml.blink
+
+@charset "utf-8";
+
+:root { color-scheme: dark; --ink: #edf2ea; --muted: #aebbb4; --surface: #172923; --line: #385148; --accent: #d7b878; }
+
+* { box-sizing: border-box; }
+
+body { min-height: 100vh; margin: 0px; display: grid; place-items: center; overflow: hidden; color: var(--ink); background: radial-gradient(circle at 18% 22%, rgba(215, 184, 120, 0.11), transparent 32rem), linear-gradient(145deg, rgb(13, 24, 21), rgb(22, 39, 33) 65%, rgb(16, 28, 24)); font-family: "Noto Kufi Arabic", "Geeza Pro", Tahoma, sans-serif; }
+
+body::before { content: ""; position: fixed; inset: 0px; pointer-events: none; opacity: 0.24; background-image: linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px); background-size: 42px 42px; mask-image: linear-gradient(black, transparent 88%); }
+
+main { position: relative; width: min(90vw, 720px); padding: clamp(2rem, 7vw, 5rem); border: 1px solid var(--line); border-radius: 2px 34px; background: color-mix(in srgb, var(--surface) 88%, transparent); box-shadow: rgba(0, 0, 0, 0.3) 0px 32px 90px; animation: 600ms ease-out 0s 1 normal both running enter; }
+
+.status { display: inline-flex; align-items: center; gap: 0.65rem; margin: 0px 0px 2.5rem; color: var(--accent); font-size: 0.82rem; letter-spacing: 0.08em; }
+
+.status::before { content: ""; width: 0.68rem; height: 0.68rem; border-radius: 50%; background: rgb(131, 184, 154); box-shadow: rgba(131, 184, 154, 0.12) 0px 0px 0px 5px; }
+
+h1 { max-width: 11ch; margin: 0px; font-family: "Aref Ruqaa", "Geeza Pro", serif; font-size: clamp(3.1rem, 11vw, 6.8rem); font-weight: 700; line-height: 0.98; letter-spacing: -0.035em; }
+
+p { max-width: 48ch; margin: 2rem 0px 0px; color: var(--muted); font-size: clamp(1rem, 2.4vw, 1.18rem); line-height: 1.9; }
+
+time { display: block; margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid var(--line); color: var(--muted); font-family: ui-monospace, monospace; font-size: 0.76rem; direction: ltr; text-align: left; }
+
+@keyframes enter { 
+  0% { opacity: 0; transform: translateY(18px); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  main { animation: auto ease 0s 1 normal none running none; }
+}
+------MultipartBoundary--Op9KiIkvsLwGX6w2V4InCaS9xax61JRnJBPnti4H4X------
